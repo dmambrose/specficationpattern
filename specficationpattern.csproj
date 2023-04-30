@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+<ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="4.0.0" />
+
+   
+
+    <PackageReference Include="CodeGeneration.Roslyn.BuildTime"
+                      Version="0.6.1"
+                      PrivateAssets="all" />
+
+    <DotNetCliToolReference Include="dotnet-codegen" Version="0.6.1" />
+</ItemGroup>
+</Project>
